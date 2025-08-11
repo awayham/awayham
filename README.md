@@ -1,16 +1,17 @@
-## Hi there 👋
+# Smart Robot - iOS Camera & Voice Controlled Object Tracking
 
-<!--
-**awayham/awayham** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+مشروع للتحكم في روبوت ذكي باستخدام:
+- 🎤 أوامر صوتية من **الميكروفون في iPhone**
+- 📷 بث فيديو من **كاميرا iPhone** إلى Python على الـ Mac أو Raspberry Pi
+- 🧠 تتبع الأجسام باستخدام **MobileNetSSD** في Python
 
-Here are some ideas to get you started:
+## 📌 المميزات
+- بث الفيديو من كاميرا iPhone مباشرة إلى Python عبر UDP
+- التعرف على الأوامر الصوتية محليًا على الهاتف (باستخدام Speech Framework)
+- إرسال الأوامر الصوتية كنصوص إلى Python للتحكم
+- تتبع الأشخاص أو الأجسام في الفيديو باستخدام OpenCV وMobileNetSSD
+- قابل للتطوير لإضافة تحكم في روبوت فعلي عبر GPIO أو واجهات أخرى
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 📂 مكونات المشروع
